@@ -9,11 +9,13 @@ import HomeSlider from "@/Components/HomeSlider";
 import RoomsAndSuitesSection from "@/Components/RoomsAndSuitesSection";
 import Dining from "@/Components/Dining";
 import Navbar from "@/Components/Navbar";
+import Amenities from "@/Components/Amenities";
+import ThingsToDo from "@/Components/ThingsToDo";
 
 export default function Home() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className=" h-[750px] overflow-hidden pt-20">
         <video
           className="w-full h-full object-cover"
@@ -89,7 +91,13 @@ export default function Home() {
         <RoomsAndSuitesSection />
       </section>
       <section>
-        <Dining/>
+        <Dining />
+      </section>
+      <section>
+        <ThingsToDo/>
+      </section>
+      <section>
+        <Amenities />
       </section>
     </div>
   );
