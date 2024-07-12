@@ -1,5 +1,5 @@
+"use client"
 import React from "react";
-
 import Diningswiper from "./Diningswiper";
 
 export default function Dining() {

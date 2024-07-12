@@ -8,7 +8,7 @@ import TextLogo from "@/public/Images/Logo/Punarnnava text.png";
 import BlackLogo from "@/public/Images/Logo/Punarnnava black text.png";
 import { TiThMenu, TiTimes } from "react-icons/ti";
 
-export default function Header() {
+export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {

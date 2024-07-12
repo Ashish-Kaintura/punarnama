@@ -1,5 +1,4 @@
 // import Image from "next/image";
-
 import Image from "next/image";
 import Image2 from "../public/Images/home/bollywood-shooting-1.jpg";
 import Celeb from "../public/Images/celebrity/big-imag3.jpg";
@@ -9,10 +8,12 @@ import Celeb3 from "../public/Images/celebrity/small-image1.jpg";
 import HomeSlider from "@/Components/HomeSlider";
 import RoomsAndSuitesSection from "@/Components/RoomsAndSuitesSection";
 import Dining from "@/Components/Dining";
+import Navbar from "@/Components/Navbar";
 
 export default function Home() {
   return (
     <div>
+      <Navbar/>
       <div className=" h-[750px] overflow-hidden pt-20">
         <video
           className="w-full h-full object-cover"
