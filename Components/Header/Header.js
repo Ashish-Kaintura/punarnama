@@ -3,9 +3,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Logo from "../public/Images/Logo/Punarnnava New Logo-.png";
-import TextLogo from "../public/Images/Logo/Punarnnava text.png";
-import BlackLogo from "../public/Images/Logo/Punarnnava black text.png";
+import Logo from "@/public/Images/Logo/Punarnnava New Logo-.png";
+import TextLogo from "@/public/Images/Logo/Punarnnava text.png";
+import BlackLogo from "@/public/Images/Logo/Punarnnava black text.png";
 import { TiThMenu, TiTimes } from "react-icons/ti";
 
 export default function Header() {
