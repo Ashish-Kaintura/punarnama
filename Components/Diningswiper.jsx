@@ -65,7 +65,7 @@ export default function Diningswiper() {
   return (
     <>
       <div className="flex justify-center mt-4 ">
-        <h2 className=" font-raleway tracking-widest text-[black] text-sm text-center">
+        <h2 className=" font-raleway tracking-widest text-[#be9343] text-2xl text-center">
           {rooms[currentIndex].name}{" "}
         </h2>
       </div>
@@ -111,7 +111,7 @@ export default function Diningswiper() {
           ))}
         </Swiper>
         <div className="flex justify-center mt-1">
-          <p className=" font-sans text-[black] text-sm sm:w-96 text-start">
+          <p className=" font-sans text-gray-800 text-sm sm:w-96 text-start">
             {rooms[currentIndex].Des}{" "}
           </p>
         </div>

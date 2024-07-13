@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { MdOutlineNavigateBefore, MdOutlineNavigateNext } from "react-icons/md";
 import Image from "next/image";
 import Image1 from "../public/Images/home/pre-wedding-shoot-1.jpg";
 import Image2 from "../public/Images/home/bollywood-shooting-1.jpg";
@@ -94,7 +95,7 @@ export default function HomeSlider() {
               </div>
             ))}
           </div>
-          <div className="mt-4 flex justify-end px-12 ">
+          <div className="mt-4 flex justify-end px-12 gap-x-8 ">
             <button
               onClick={goToPrevious}
               className={`bg-[#ad8c4e] hover:bg-amber-800 text-white font-bold py-2 px-4 rounded-l ${
@@ -102,13 +103,13 @@ export default function HomeSlider() {
               }`}
               disabled={currentIndex === 0}
             >
-              Previous
+              <MdOutlineNavigateBefore className="size-7" />
             </button>
             <button
               onClick={goToNext}
               className="bg-[#ad8c4e] hover:bg-amber-800 text-white font-bold py-2 px-4 rounded-r"
             >
-              Next
+              <MdOutlineNavigateNext className="size-7" />
             </button>
           </div>
         </div>
